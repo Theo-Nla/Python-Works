@@ -3,7 +3,7 @@
 ## IMDB Movie Data Analysis
 
 ## About:
-IMDb (an abbreviation of Internet Movie Database) is an online database of information related to films, television series, home videos, video games, and streaming content. The IMDB Movie dataset was obtained from the Kaggle , this dataset contains engagement information on the most subscribed YouTube channels. The data contains 12 columns and 1000 rows
+IMDb (an abbreviation of Internet Movie Database) is an online database of information related to films, television series, home videos, video games, and streaming content. The IMDB Movie dataset was obtained from the Kaggle, This dataset contains 12 columns and 1000 rows
 RangeIndex: 1000 entries, 0 to 999
 Data columns (total 12 columns):Rank, Title, Genre, Description, Director, Actors, Year, Runtime (Minutes), Rating, Votes, Revenue (Millions), Metascore,
  
@@ -14,10 +14,11 @@ This project aims to explore the IMDB platform to get insights on the movie tren
 
 ## 1. Data Wrangling
 Accessing the Data to check for data values using
-df.isnull().sum()
-and
-per_missing =df.isnull() .sum() * 100 / len(df)
-per_missing
+
+   df.isnull().sum()
+   and
+   per_missing =df.isnull() .sum() * 100 / len(df)
+   per_missing
 
 ## 2. Exploratory Analysis and Visualization
  Exploratory data analysis is done to answer the listed questions and aims of this project.
