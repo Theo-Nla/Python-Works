@@ -57,11 +57,6 @@ per_missing
 1.	Added a new column named “Rating_Category” where movies are classified based on rating as Excellent, Good, Bad.
 2.	Added a new column named “Decade” from the year column using the floor function and division by 10. This column would be used to explore how movie genres and directors have evolved over time.
 3.	Creating a new column for “movie length categories” by categorizing the Runtime (Minutes) column into categories like "Short" (less than 60 minutes), "Medium" (60-120 minutes), and "Long" (more than 120 minutes). This column would be used to explore the effect of Movie Length on Ratings and Reviews.
-                         Rating  Revenue (Millions)
-Movie_Length_Category                              
-Short                       NaN                 NaN
-Medium                 6.542194           63.716784
-Long                   7.168512          124.723782
 4.	Creating a “Keyword column” from “Description column” by extracting relevant keywords from the Description column using stopwords removal techniques.
 
 ## Visualizations created from these analysis and new columns are
