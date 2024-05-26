@@ -11,23 +11,7 @@ This project aims to understand the YouTube landscape to understand top performi
 ## About Data:
 The IMDB Movie dataset was obtained from the Kaggle , this dataset contains engagement information on the most subscribed YouTube channels. The data contains 12 columns and 1000 rows
 RangeIndex: 1000 entries, 0 to 999
-Data columns (total 12 columns):
-    Column              Non-Null Count  Dtype  
----  ------              --------------  -----  
- 0   Rank                1000 non-null   int64  
- 1   Title               1000 non-null   object 
- 2   Genre               1000 non-null   object 
- 3   Description         1000 non-null   object 
- 4   Director            1000 non-null   object 
- 5   Actors              1000 non-null   object 
- 6   Year                1000 non-null   int64  
- 7   Runtime (Minutes)   1000 non-null   int64  
- 8   Rating              1000 non-null   float64
- 9   Votes               1000 non-null   int64  
- 10  Revenue (Millions)  872 non-null    float64
- 11  Metascore           936 non-null    float64
-dtypes: float64(3), int64(4), object(5)
-memory usage: 93.9+ KB
+Data columns (total 12 columns):Rank, Title, Genre, Description, Director, Actors, Year, Runtime (Minutes), Rating, Votes, Revenue (Millions), Metascore,
 
 ## Analysis Prodedure
 
