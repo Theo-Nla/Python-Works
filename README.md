@@ -2,13 +2,13 @@
 
 ##IMDB Movie Data Analysis
 
-###About
-YouTube is a vast and diverse video-sharing platform that engage it users with video contents, it has revolutionized the way we consume and share information, entertainment and ideas. There are three kinds of users who engage themselves with YouTube: Video content creators, Video content lovers and Digital marketers who use YouTube advertising service to publicize their product and service information.
+###About:
+IMDb (an abbreviation of Internet Movie Database) is an online database of information related to films, television series, home videos, video games, and streaming content. There are three kinds of users who engage themselves with YouTube: Video content creators, Video content lovers and Digital marketers who use YouTube advertising service to publicize their product and service information.
 
-###Purposes Of the Project
+###Purposes Of the Project:
 This project aims to understand the YouTube landscape to understand top performing branches and products, performance trend of different service providers, customer behavior.
 
-###About Data
+###About Data:
 The IMDB Movie dataset was obtained from the Kaggle , this dataset contains engagement information on the most subscribed YouTube channels. The data contains 12 columns and 1000 rows:
 
 RangeIndex: 1000 entries, 0 to 999
