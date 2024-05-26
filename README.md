@@ -66,8 +66,9 @@ Long                   7.168512          124.723782
 
 ## Visualizations created from these analysis and new columns are
 1.	Distribution of Movie Keywords by Genre using WordCloud
+ ![wordcloud_Comedy,Drama,Music](https://github.com/Theo-Nla/Python-Works/assets/135545087/7fa4e059-db00-498e-98ec-1c3350bd0556)
  
- 
-2.	Distribution of Movie Keywords by Genre Decade using WordCloud
- 
- 
+2.	Distribution of Movie Keywords by Decade using WordCloud
+ ![wordcloud_2000s](https://github.com/Theo-Nla/Python-Works/assets/135545087/86a1574a-ee3d-47c7-94ed-126dca7643dc)
+
+ ![wordcloud_2010s](https://github.com/Theo-Nla/Python-Works/assets/135545087/b23c2cc3-4190-4f17-ba87-2d5763bc9cdf)
