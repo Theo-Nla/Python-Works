@@ -13,56 +13,21 @@ This project aims to explore the IMDB platform to get insights on the movie tren
 ## Analysis Prodedure
 
 ## 1. Data Wrangling
-Accessing the Data to check for data values using
-
-   df.isnull().sum()
-   and
-   per_missing =df.isnull() .sum() * 100 / len(df)
-   per_missing
+Accessing the Data to check for data values
 
 ## 2. Exploratory Analysis and Visualization
  Exploratory data analysis is done to answer the listed questions and aims of this project.
-1.	The year with the Highest Average Voting
-
-![download (2)](https://github.com/Theo-Nla/Python-Works/assets/135545087/c0c238dd-dcd7-4b82-83fe-99f3c24b982b)
-   
+1.	The year with the Highest Average Voting 
 3.	The year with the Highest Average Revenue
-
-![download (3)](https://github.com/Theo-Nla/Python-Works/assets/135545087/e1975bd9-2af5-48d4-9474-015bc1301918)
-
 4.	The average rating for each director
-
-![download (4)](https://github.com/Theo-Nla/Python-Works/assets/135545087/06c4ea18-8257-4ac4-8cfa-b9ea73db8e11)
-
 5.	Movies having a runtime greater than 180
-
-
-
 6.	The Top 10 lengthy Movie Title and Runtime
-
-![download (5)](https://github.com/Theo-Nla/Python-Works/assets/135545087/f1162cde-89fb-4c3a-b981-ae4f938aab7c)
-
 7.	The Number of Movies Per Year
-
-
-
 8.	The Most Popular Movie Title Generating the highest revenue
-
-    50    Star Wars: Episode VII - The Force Awakens
-    Name: Title, dtype: object
-
 9.	Top 10 Highest Rated Movie Titles and its Directors
-
-![download (6)](https://github.com/Theo-Nla/Python-Works/assets/135545087/f1430d4f-5f29-43c7-98bf-0988e03298af)
-
 10.	Top 10 Highest Revenue Movie Titles
-
-![download (7)](https://github.com/Theo-Nla/Python-Works/assets/135545087/e03f9f79-241b-4a6d-b014-9960a5ee5d10)
-
 11.	The Average Movie Rating Yearly
 12.	The Effect of Rating on Revenue
-
-![download (8)](https://github.com/Theo-Nla/Python-Works/assets/135545087/9fc4ef69-64ba-4864-b2e5-c1020b723a1d)
 
 ## 3. Feature engineering and Visualization
 1.	Added a new column named “Rating_Category” where movies are classified based on rating as Excellent, Good, Bad.
@@ -72,9 +37,5 @@ Accessing the Data to check for data values using
 
 ## Visualizations created from these analysis and new columns are
 1.	Distribution of Movie Keywords by Genre using WordCloud
- ![wordcloud_Comedy,Drama,Music](https://github.com/Theo-Nla/Python-Works/assets/135545087/7fa4e059-db00-498e-98ec-1c3350bd0556)
  
 2.	Distribution of Movie Keywords by Decade using WordCloud
- ![wordcloud_2000s](https://github.com/Theo-Nla/Python-Works/assets/135545087/86a1574a-ee3d-47c7-94ed-126dca7643dc)
-
- ![wordcloud_2010s](https://github.com/Theo-Nla/Python-Works/assets/135545087/b23c2cc3-4190-4f17-ba87-2d5763bc9cdf)
